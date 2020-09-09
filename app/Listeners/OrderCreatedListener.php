@@ -26,6 +26,6 @@ class OrderCreatedListener implements ShouldQueue
      */
     public function handle($event)
     {
-        Log::info('Order created on estore:' . json_encode($event));
+        Log::info('Order created on sales app:' . json_encode($event));
     }
 }
